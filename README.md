@@ -9,8 +9,11 @@ Per-account reports → Compliance results for each AWS account, broken down by 
 📂 Project Structure
 
 ├── audit.py         # Main script to run the compliance checks
+
 ├── profiles.csv     # Input file with AWS profile names (matches ~/.aws/config)
+
 ├── output/          # Folder where compliance reports will be generated
+
 └── README.md        # Project documentation
 
 ⚙️ Prerequisites
