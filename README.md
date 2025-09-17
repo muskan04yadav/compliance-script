@@ -12,6 +12,7 @@ Per-account reports → Compliance results for each AWS account, broken down by 
 ├── profiles.csv     # Input file with AWS profile names (matches ~/.aws/config)
 ├── output/          # Folder where compliance reports will be generated
 └── README.md        # Project documentation
+
 ⚙️ Prerequisites
 
 AWS CLI v2 installed and configured on your system
@@ -29,11 +30,11 @@ prod-profile
 
 ⚠️ **Important:** The profile names in profiles.csv must match exactly with the profiles in your AWS CLI configuration.
 
-Check available profiles with: aws configure list-profiles
+Check available profiles with: `aws configure list-profiles`
 
 🚀 Usage
 
-To run the compliance audit, execute: python audit.py
+To run the compliance audit, execute: `python audit.py`
 
 By default: - Reads profiles from profiles.csv - Runs compliance checks for each profile - Generates reports inside the output/ directory
 
