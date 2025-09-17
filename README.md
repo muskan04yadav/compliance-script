@@ -22,6 +22,7 @@ AWS CLI v2 installed and configured on your system
 One or more AWS profiles defined in `~/.aws/config`
 
 Python 3.8+ installed
+
 📝 Input File (profiles.csv) - The script expects a CSV file with profile names that correspond to AWS CLI profiles already configured on your machine.
 
 Example profiles.csv
