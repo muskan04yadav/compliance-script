@@ -16,7 +16,7 @@ Per-account reports → Compliance results for each AWS account, broken down by 
 
 └── README.md        # Project documentation
 
-⚙️ Prerequisites
+**⚙️ Prerequisites**
 
 AWS CLI v2 installed and configured on your system
 One or more AWS profiles defined in `~/.aws/config`
